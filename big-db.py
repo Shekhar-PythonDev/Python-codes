@@ -50,5 +50,40 @@ print("\nActors appearing more than twice:")
 for actor, count in actor_count.items():
     if count > 2:
         print(f"{actor} appears {count} times in the database.")
+
+#OUTPUT:
+Database: chotu_db1
+Movie: Jawan, Cast: Shah Rukh Khan, Nayanthara, Vijay Sethupathi
+Movie: Pathaan, Cast: Shah Rukh Khan, Deepika Padukone, John Abraham
+Movie: Dangal, Cast: Aamir Khan, Sakshi Tanwar, Fatima Sana Shaikh
+Movie: Lagaan, Cast: Aamir Khan, Gracy Singh, Amin Hajee
+
+Database: chotu_db2
+Movie: Kabir Singh, Cast: Shahid Kapoor, Kiara Advani, Arjun Kapoor
+Movie: Bajrangi Bhaijaan, Cast: Salman Khan, Harshali Malotra, Nawazuddin Siddiqui
+Movie: PK, Cast: Aamir Khan, Anushka Sharma, Sanjay Dutt, Sushant Singh Rajput
+Movie: Chhichhore, Cast: Sushant Singh Rajput, Shraddha Kapoor, Varun Sharma
+
+Database: chotu_db3
+Movie: Queen, Cast: Kangana Ranaut, Rajkummar Rao, Lisa Haydon
+Movie: Tanu Weds Manu, Cast: Kangana Ranaut, Madhavan, Jimmy Shergill
+Movie: Andhadhun, Cast: Ayushmann Khurrana, Tabu, Radhika Apte
+Movie: Badhaai Ho, Cast: Ayushmann Khurrana, Neena Gupta, Gajraj Rao
+
+Database: chotu_db4
+Movie: Singham, Cast: Ajay Devgn, Kajal Aggarwal, Prakash Raj
+Movie: Drishyam, Cast: Ajay Devgn, Tabu, Ishita Dutta
+Movie: Leo, Cast: Vijay, Trisha Krishnan, Sanjay Dutt
+Movie: Master, Cast: Vijay, Malavika Mohanan, Arjun Das
+
+Actors appearing more than twice:
+Aamir Khan appears 3 times in the database.
+Sanjay Dutt appears 3 times in the database.
+Tabu appears 3 times in the database.
+Vijay appears 3 times in the database.
+Ayushmann Khurrana appears 2 times in the database.   # (just for info, below threshold)
+Sushant Singh Rajput appears 2 times in the database. # (same)
+...
+
         
             
