@@ -31,3 +31,11 @@ s1 = Student(nm,r,m)
 s1.display_percentage()  
 
 
+#OUTPUT
+---Student Details---
+Name--> Shekhar
+Roll_Number--> 7
+Marks--> {'Math': 80, 'Science': 87, 'Hindi': 86, 'English': 90, 'History': 88}
+Percentage--> 86.2 %
+
+
