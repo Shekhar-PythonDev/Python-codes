@@ -40,3 +40,16 @@ Car1.show_details()
 Car1.drive()
 Car.change_wheels(6)
 Car2.show_details
+
+
+#OUTPUT:
+[LOG] Calling method: Shekhar
+Welcome to the car Showroom! 
+[LOG] Calling method: show_details
+This is a White Bolero car with 4 wheels.
+[LOG] Calling method: drive
+The Bolero is driving at 60km/h
+[LOG] Calling method: change_wheels
+Wheel count is changed to <bound method log_action.<locals>.wrapper of <class '__main__.Car'>>
+
+
