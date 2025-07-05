@@ -146,3 +146,30 @@ if __name__ == "__main__":
         print(team)
         for player in team.get_players():
             print("  -", player)
+
+#OUTPUT🫡:
+Team: Chennai Super Kings
+  - MS Dhoni (WicketKeeper Batsman) - Runs: 5000, Stumpings: 120
+  - Ruturaj Gaikwad (Batsman) - Runs: 1800
+  - Deepak Chahar (Bowler) - Wickets: 80
+  - Ravindra Jadeja (AllRounder) - Runs: 2500, Wickets: 120
+Team: Mumbai Indians
+  - Rohit Sharma (Batsman) - Runs: 6000
+  - Ishan Kishan (WicketKeeper Batsman) - Runs: 2000, Stumpings: 30
+  - Jasprit Bumrah (Bowler) - Wickets: 145
+  - Hardik Pandya (AllRounder) - Runs: 1700, Wickets: 60
+Team: Kolkata Knight Riders
+  - Shreyas Iyer (Batsman) - Runs: 2200
+  - Rahmanullah Gurbaz (WicketKeeper Batsman) - Runs: 800, Stumpings: 10
+  - Sunil Narine (Bowler) - Wickets: 150
+  - Andre Russell (AllRounder) - Runs: 1800, Wickets: 90
+Team: Sunrisers Hyderabad
+  - Abhishek Sharma (Batsman) - Runs: 1200
+  - Heinrich Klaasen (WicketKeeper Batsman) - Runs: 900, Stumpings: 15
+  - Bhuvneshwar Kumar (Bowler) - Wickets: 160
+  - Washington Sundar (AllRounder) - Runs: 600, Wickets: 40
+Team: Royal Challengers Bangalore
+  - Virat Kohli (Batsman) - Runs: 7000
+  - Dinesh Karthik (WicketKeeper Batsman) - Runs: 4000, Stumpings: 100
+  - Mohammed Siraj (Bowler) - Wickets: 70
+  - Glenn Maxwell (AllRounder) - Runs: 2500, Wickets: 50
